@@ -1,0 +1,37 @@
+eeg_data:
+  sr: 64
+  time_duration: 2
+EEGNet:
+  in_channels: 1
+  channel_size: 40
+  temporal_conv_size: 25
+  spatial_conv_size: 60
+  avg_kernel: 25
+  avg_stride: 5
+  dropout: 0.2
+  input_dropout: 0.3
+  num_head: 10
+  num_attention: 6
+  expansion : 4
+  hidden_dim: 500
+  latent_dim: 300
+train:
+  train_ratio : 0.8
+  batch_size: 128
+  num_epoch: 300
+  lr: 0.0005
+  seed: 42
+audio_data:
+  sr: 44100
+  time_duration: 2
+  time_stride: 1
+  window_size: 0.025
+  window_stride: 0.01
+  n_mels: 40
+  slicing : 40
+AudioNet:
+  n_layer: 3
+  channels: [15, 40, 60]
+  input_drop: 0.5
+  hidden_dim: 2000
+  latent_dim: 300
