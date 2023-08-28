@@ -1,0 +1,11 @@
+batch_size: 512
+csv_folder: 
+  - ./trial_data/exp_0_subj_[013579]/*.csv
+  - ./trial_data/exp_1_subj_[02579]/*.csv
+data_name: model_upgrage_exp_01_left_final
+delay: 0
+lr: 0.0001
+num_epoch: 500
+seed: 42
+temporal_size: 128
+temporal_step: 8
