@@ -6,6 +6,11 @@
 
 - 60channel의 EEG data와 1channel의 envelope data를 concat시켜 CNN 기반의 모델에 통과시켜 유사도를 구한 후 이중 분류
 
+  ##### flow
+  <img width="1231" alt="image" src="https://github.com/newoong/KIST/assets/94604584/787a5764-03dc-4b71-8582-cb596695d5ed">
+  eeg(60channel) + envelope(1channel) = inputs 61channel, 길이 128(64Hz * 2초)
+
+
 
 ### CLIP
 
