@@ -11,6 +11,6 @@
 
 - 60channel의 EEG data를 100차원으로 encoding + 소리 데이터를 melspectrogram으로 변환 후 100차원으로 encoding 코사인 유사도를 구하는 CLIP 방식을 차용하여 일반화 시도
 
-##### flow
-<img width="1234" alt="image" src="https://github.com/newoong/KIST/assets/94604584/4a71cf2f-7aa7-4e65-a002-7b89a53e9977">
+  ##### flow
+  <img width="1234" alt="image" src="https://github.com/newoong/KIST/assets/94604584/4a71cf2f-7aa7-4e65-a002-7b89a53e9977">
 
